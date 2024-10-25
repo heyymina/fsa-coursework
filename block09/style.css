@@ -1,0 +1,249 @@
+header h1 {
+
+    font-family: 'aktiv-grotesk', sans-serif;
+    font-size: 27px;
+    font-weight: 100;
+    color: #000000;
+}
+
+header {
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 50px 1px 30px;
+    background-color: #ffffff;
+    z-index: 1000;
+
+
+}
+
+header nav {
+    display: flex;
+    margin-right: 65px;
+
+}
+
+header nav a {
+
+    margin-left: 20px;
+    text-decoration: none;
+    color: #000000;
+    font-size: 1em;
+    font-family: 'aktiv-grotesk', sans-serif;
+    font-weight: 100;
+}
+
+header nav a:hover {
+    color: #fe46f1;
+}
+
+.homepage-content {
+    margin-top: 200px;
+    padding-right: 550px;
+    padding-left: 40px;
+    font-family: 'aktiv-grotesk', sans-serif;
+    font-size: 1.5rem;
+    font-weight:100;
+    line-height: 1.5;
+    color: #fe46f1;
+    
+
+
+}
+.content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    width: 100vw;
+    background-color: #ffffff;
+}
+
+.text-content h1 {
+    top: 10;
+    width: 50vw;
+    font-family: 'aktiv-grotesk', sans-serif;
+    font-weight: 100;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: -350px;
+
+}
+
+.text-content p {
+    width: 40vw;
+    font-family: 'aktiv-grotesk', sans-serif;
+    font-weight: 100;
+    line-height: 1.8;
+    padding-right: 10px;
+    padding-left: 10px;
+
+}
+
+.image-content img {
+    width: 50vw;
+    max-width: 1000px;
+    height: auto;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+
+
+body {
+    font-family: 'aktiv-grotesk', sans-serif;
+    background-color: #ffffff;
+}
+
+.book-of-work {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 55vh;
+    background-color: white;
+}
+
+.image-side {
+    flex: 1;
+    padding: 30px;
+}
+
+.image-side img {
+    width: 100%;
+    height: auto;
+}
+
+.text-side {
+    flex: 1;
+    padding: 10px;
+}
+
+.text-side h1 {
+    font-family: 'aktiv-grotesk', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+.text-side p {
+    font-family: 'aktiv-grotesk', sans-serif;
+    font-size: 1rem;
+    font-weight: 100;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+
+.book-of-work2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+}
+
+.image-side2 {
+    flex: 1;
+    padding: 30px;
+}
+
+.image-side2 img {
+    width: 100%;
+    height: auto;
+}
+
+.text-side2 {
+    flex: 1;
+    padding: 10px;
+}
+
+.text-side2 h1 {
+    font-family: 'aktiv-grotesk', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 100;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.text-side2 p {
+    font-family: 'aktiv-grotesk', sans-serif;
+    font-size: 1rem;
+    font-weight: 100;
+    text-align: right;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+.contactform {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: flex-start; 
+    height: 100vh; 
+    margin-top: 100px;
+}
+.title {  
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px; 
+    text-align: center; 
+}
+
+
+
+.form {
+    max-width: 600px; 
+    width: 100%;
+    margin: 0 auto; 
+    padding: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    width: 96%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 1rem;
+    font-family: 'aktiv-grotesk', sans-serif;
+ 
+  
+}
+
+form button {
+    display: block;
+    width: 620px;
+    padding: 10px;
+    background-color: #fe46f1;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #f687ef;
+}
+
+
+
